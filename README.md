@@ -36,3 +36,7 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
   - Log outputs from Hugging Face Transformers (if you run additional cells focusing on NLP tasks).
 
 ## Notes
+  - The random seeds are set for reproducibility.
+  - This notebook focuses on a conceptual understanding of multi-head attention in Transformers.
+  - In practice, you would replicate the attention mechanism across multiple heads, then concatenate or project the combined output.
+  - For large-scale tasks, consider using GPU-accelerated hardware to speed up computations.
