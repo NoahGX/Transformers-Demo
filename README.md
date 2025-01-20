@@ -16,7 +16,16 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
   3. Run the cells in order to see the step-by-step implementation and outputs.  
 
 ## Prerequisites
-- Jupyter Notebook
+  - **Python 3.7+**
+  - [**PyTorch**](https://pytorch.org/) (version compatible with your CUDA setup if using GPUs)
+  - **NumPy**
+  - **SciPy**
+  - **Jupyter Notebook vs JupyterLab**
+  - [**Hugging Face Transformers**](https://github.com/huggingface/transformers) (for additional transformer-based NLP tasks)
+  - Install required packages via pip:
+      ```bash
+        pip install torch numpy scipy transformers
+      ```
 
 ## Input
 
