@@ -17,10 +17,10 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
 
 ## Prerequisites
   - **Python 3.7+**
-  - [**PyTorch**](https://pytorch.org/) (version compatible with your CUDA setup if using GPUs)
   - **NumPy**
   - **SciPy**
   - **Jupyter Notebook vs JupyterLab**
+  - [**PyTorch**](https://pytorch.org/) (version compatible with your CUDA setup if using GPUs)
   - [**Hugging Face Transformers**](https://github.com/huggingface/transformers) (for additional transformer-based NLP tasks)
   - Install required packages via pip:
       ```bash
@@ -28,6 +28,8 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
       ```
 
 ## Input
+  - The notebook uses randomly generated data (`x`) to demonstrate multi-head attention calculations.
+  - For exploring **transformers** library tasks, you can provide your own texts or datasets for inference.  
 
 ## Output
 
