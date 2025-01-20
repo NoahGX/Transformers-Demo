@@ -10,7 +10,10 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
   - Demonstration of attention score computation and softmax normalization.
   - Examples using **Hugging Face Transformers** for various NLP tasks such as text classification, sentiment analysis, etc.  
 
-## Usage
+## Usage 
+  1. Clone or download the repository to your local machine.
+  2. Open the notebook using Jupyter Lab or Jupyter Notebook.
+  3. Run the cells in order to see the step-by-step implementation and outputs.  
 
 ## Prerequisites
 - Jupyter Notebook
