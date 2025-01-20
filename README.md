@@ -32,5 +32,7 @@ In this Jupyter notebook, we demonstrate two key concepts related to Transformer
   - For exploring **transformers** library tasks, you can provide your own texts or datasets for inference.  
 
 ## Output
+  - Intermediate print statements show the shape and sample contents of Q, K, V matrices, attention scores, and weighted outputs.
+  - Log outputs from Hugging Face Transformers (if you run additional cells focusing on NLP tasks).
 
 ## Notes
