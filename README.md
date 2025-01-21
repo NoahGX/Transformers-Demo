@@ -11,9 +11,15 @@
   - **Summarization**: Leverage the Hugging Face `pipeline` for text summarization.
 
 ## Usage 
-  1. Clone or download the repository to your local machine.
-  2. Open the notebook using Jupyter Lab or Jupyter Notebook.
-  3. Run the cells in order to see the step-by-step implementation and outputs.  
+  - **Part 1 (Manual Multi-Head Attention)**:
+      1. Open the notebook in Jupyter.
+      2. Run all cells to see the step-by-step implementation of multi-head attention.
+      3. Observe printed shapes, attention scores, and weighted outputs.  
+  - **Part 2 (BERT Embeddings & Summarization)**:
+      1. Open the notebook in Jupyter).
+      2. Make sure the Hugging Face `transformers` library is installed (`pip install transformers`).
+      3. Run all cells to tokenize text, extract embeddings, compare similarities, and summarize.
+      4. Observe the final text summaries and similarity scores printed in the output cells.
 
 ## Prerequisites
   - **Python 3.7+**
