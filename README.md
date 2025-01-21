@@ -49,7 +49,7 @@
       - Summarized version of the input text using the Hugging Face pipeline.  
 
 ## Notes
+  - Make sure you have enough memory and a proper GPU (optional) for faster execution of the BERT model.
   - The code in Part 1 is a conceptual demonstration. In production-level applications, use efficient PyTorch or TensorFlow implementations of multi-head attention.
   - Part 2 showcases only a small subset of BERT’s capabilities. Fine-tuning on specific tasks usually yields better performance than zero-shot usage.
-  - Make sure you have enough memory and a proper GPU (optional) for faster execution of the BERT model.
-  - Refer to [PyTorch documentation](https://pytorch.org/) and [Hugging Face Transformers documentation](https://github.com/huggingface/transformers) for more details.
+  - References: [PyTorch documentation](https://pytorch.org/) and [Hugging Face Transformers documentation](https://github.com/huggingface/transformers)
