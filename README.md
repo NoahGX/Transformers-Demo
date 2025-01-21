@@ -31,15 +31,21 @@
       - `scipy` (for `softmax`)
   - **Part 2**:  - `torch`
       - `transformers`
-      - `tokenizers` (installed alongside `transformers`)  
+      - `tokenizers` (installed alongside `transformers`)
 
 ## Input
-  - The notebook uses randomly generated data (`x`) to demonstrate multi-head attention calculations.
-  - For exploring **transformers** library tasks, you can provide your own texts or datasets for inference.  
+  - **Part 1**: Synthetic input vectors (`x`) for demonstrating multi-head attention calculations.  
+  - **Part 2**:
+      - A sample text paragraph for BERT tokenization and summarization.
+      - Splitting text into sentences for separate encoding.  
 
-## Output
-  - Intermediate print statements show the shape and sample contents of Q, K, V matrices, attention scores, and weighted outputs.
-  - Log outputs from Hugging Face Transformers (if you run additional cells focusing on NLP tasks).
+# Output
+  - **Part 1**:
+      - Intermediate Q, K, V matrices.
+      - Attention score matrices and the final weighted output vectors.
+  - **Part 2**:
+      - Prints the shape of tokenized input, hidden states from BERT, and compares cosine similarity among [CLS] embeddings of sentences.
+      - Summarized version of the input text using the Hugging Face pipeline.  
 
 ## Notes
   - The random seeds are set for reproducibility.
