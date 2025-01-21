@@ -1,14 +1,14 @@
 # Transformers-Demo
 
 ## Overview
-In this Jupyter notebook, we demonstrate two key concepts related to Transformer and Transformer-Based models:  
-  - A step-by-step implementation of the **multi-head attention** mechanism in a Transformer encoder, focusing on the basic computation of Q, K, V, attention scores, and weighted outputs.
-  - An exploration of various **transformer-based NLP models** from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library for multiple natural language processing tasks.  
+  - **Part 1**: Demonstrates a manual implementation of the multi-head attention sublayer in a Transformer encoder. It shows how queries, keys, and values are computed and how attention scores are derived and applied to the value vectors.
+  - **Part 2**: Uses a pre-trained BERT model (from Hugging Face Transformers) to tokenize text, derive embeddings for specific tokens (e.g., "entropy"), compare sentence embeddings, and generate summaries using a summarization pipeline.
 
 ## Features
-  - Clear Python code illustrating how to calculate the **Query (Q)**, **Key (K)**, and **Value (V)** matrices.
-  - Demonstration of attention score computation and softmax normalization.
-  - Examples using **Hugging Face Transformers** for various NLP tasks such as text classification, sentiment analysis, etc.  
+  - **Multi-Head Attention**: Manual computation of Q, K, V matrices, attention scores, and the final weighted outputs.
+  - **Token Embeddings**: Utilize a BERT model to extract embeddings for specific words.
+  - **Sentence Embeddings**: Tokenize multiple sentences simultaneously and compare [CLS] (or sentence-level) embeddings using cosine similarity.
+  - **Summarization**: Leverage the Hugging Face `pipeline` for text summarization.
 
 ## Usage 
   1. Clone or download the repository to your local machine.
