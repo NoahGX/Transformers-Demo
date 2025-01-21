@@ -22,16 +22,16 @@
       4. Observe the final text summaries and similarity scores printed in the output cells.
 
 ## Prerequisites
-  - **Python 3.7+**
-  - **NumPy**
-  - **SciPy**
-  - **Jupyter Notebook vs JupyterLab**
-  - [**PyTorch**](https://pytorch.org/) (version compatible with your CUDA setup if using GPUs)
-  - [**Hugging Face Transformers**](https://github.com/huggingface/transformers) (for additional transformer-based NLP tasks)
-  - Install required packages via pip:
-      ```bash
-        pip install torch numpy scipy transformers
-      ```
+  - Python 3.7+
+  - Jupyter Notebook or JupyterLab environment  
+  - **Part 1**:
+      - `numpy`
+      - `torch`
+      - `torch.nn`
+      - `scipy` (for `softmax`)
+  - **Part 2**:  - `torch`
+      - `transformers`
+      - `tokenizers` (installed alongside `transformers`)  
 
 ## Input
   - The notebook uses randomly generated data (`x`) to demonstrate multi-head attention calculations.
