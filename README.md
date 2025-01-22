@@ -40,7 +40,7 @@
       - A sample text paragraph for BERT tokenization and summarization.
       - Splitting text into sentences for separate encoding.  
 
-# Output
+## Output
   - **Part 1**:
       - Intermediate Q, K, V matrices.
       - Attention score matrices and the final weighted output vectors.
